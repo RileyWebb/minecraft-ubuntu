@@ -2,4 +2,7 @@
 Description=A Paper Based 1.19.2 Minecraft Server
 
 [Service]
-ExecStart=~/paper-1.19.2/start-1.19.2.sh
+ExecStart=/usr/share/mc-server/paper-1.19.2/start-1.19.2.sh
+
+[Install]
+WantedBy=multi-user.target
